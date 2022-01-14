@@ -1,0 +1,76 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Manrope&family=Poppins&display=swap");
+/* utilities */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif; */
+  font-family: "Poppins", sans-serif;
+  max-width: 100%;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*-------------
+ header design
+ --------------- */
+
+.header-container {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-container a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+.influencer-logo a {
+  font-weight: bold;
+  font-size: 24px;
+  color: #3a3a3a;
+}
+
+.menu a {
+  margin-left: 35px;
+}
+
+/*-------------
+ top part design
+ --------------- */
+
+.start-journey-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start-journey-left{
+  width: 582px;
+  height: 270px;
+}
+.start-journey-title{
+width: 582px;
+height: 133px;
+font-weight: bolder;
+font-size: 1.5em;
+color: #3A3A3A;
+}
+.camera-pic-container{
+  width: 50%;
+  padding-left: 133px;
+}
+.camera-pic img {
+  width: 400px;
+  height: 400px;
+}
