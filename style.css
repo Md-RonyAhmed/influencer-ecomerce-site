@@ -31,20 +31,51 @@ font-family: 'Manrope', sans-serif; */
   align-items: center;
 }
 
-.navbar-container a {
+.navbar-container> .menu a {
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
   color: #3a3a3a;
+  margin-left: 35px;
+  transition:font-size 1s ease-in-out;
+
 }
+.navbar-container> .menu i {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+  margin-left: 35px;
+
+}
+
+
+.navbar-container> .menu a:hover {
+  border-top:4px solid #e02c6d;
+  border-bottom: 4px solid #e02c6d;
+  font-weight: 600;
+  font-size: 20px;
+  color: #e02c6d;
+  
+}
+
+.navbar-container> .menu i:hover {
+  font-weight: 600;
+  font-size: 16px;
+  color: #e02c6d;
+  margin-left: 35px;
+}
+
 .influencer-logo a {
   font-weight: bold;
   font-size: 24px;
   color: #3a3a3a;
+  text-decoration: none;
 }
 
-.menu a {
-  margin-left: 35px;
+.influencer-logo:hover a {
+  font-weight: bold;
+  color:#e02c6d;
 }
 
 /*-------------
@@ -56,6 +87,7 @@ font-family: 'Manrope', sans-serif; */
   justify-content: center;
   align-items: center;
   margin-top: 5%;
+  overflow: hidden;
 }
 .start-journey-left {
   width: 582px;
@@ -83,13 +115,35 @@ font-family: 'Manrope', sans-serif; */
   text-decoration: none;
   padding: 10px 24px;
   margin-left: 0;
+  transition: padding 1s ease;
 }
+.btn:hover {
+  width: 196px;
+  height: 44px;
+  background: #df0555a4;
+  border-radius: 41px;
+  color:black;
+  font-weight: 900;
+  text-decoration: none;
+  padding: 13px 27px;
+  margin-left: 0;
+}
+
 .fa-arrow-right {
   margin-left: 10px;
 }
+
 .camera-pic-container {
   width: 50%;
   padding-left: 133px;
+  transform: scale(1);
+  transition: transform 2s, width 2s ease-in-out;
+}
+.camera-pic-container:hover {
+  width: 60%;
+  padding-left: 133px;
+  transform: scale(1.2) rotate(15deg);
+
 }
 .camera-pic img {
   width: 400px;
@@ -113,6 +167,11 @@ font-family: 'Manrope', sans-serif; */
   color: white;
 }
 
+.footer-container h3>a:hover{
+  text-decoration: none;
+  color:#e02c6d;
+}
+
 .footer-content {
   padding: 15px;
 }
@@ -121,3 +180,17 @@ font-family: 'Manrope', sans-serif; */
   padding: 0 15px;
   font-size: 32px;
 }
+
+.fa-instagram:hover{
+  color: pink;
+}
+.fa-basketball-ball:hover{
+  color:orange;
+}
+.fa-twitter:hover{
+  color: skyblue;
+}
+.fa-youtube:hover{
+  color:red;
+}
+
