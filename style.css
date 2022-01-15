@@ -150,6 +150,28 @@ font-family: 'Manrope', sans-serif; */
   height: 400px;
 }
 
+
+/*-------------
+ second section design
+ --------------- */
+
+ .flexible-container{
+   display: flex;
+   justify-content: space-evenly;
+   align-items:center;
+   margin:100px 0;
+   box-shadow: 1px 2px 25px grey;
+   border-radius: 5px;
+   padding: 10px;
+ }
+
+/*-------------
+ third section design
+ --------------- */
+
+
+
+
 /*-------------
  footer part design
  --------------- */
